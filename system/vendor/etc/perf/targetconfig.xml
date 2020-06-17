@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TargetConfig>
+	<Config1>
+		<TargetInfo
+			Target="msm8996"
+			NumClusters="2"
+			TotalNumCores="4"
+			SocIds="246,291"
+			SynCore="1"
+			MinCoreOnline="0" />
+		<ClustersInfo Id="0" NumCores="2" Type="little" />
+		<ClustersInfo Id="1" NumCores="2" Type="big" />
+    </Config1>
+</TargetConfig>
