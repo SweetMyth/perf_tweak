@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Powerhint>
+	<Hint type="0x0A00"> <!-- default video encode -->
+	</Hint>
+	<Hint type="0x0B00"> <!-- default video decode -->
+	</Hint>
+	<Hint type="0x0C00"> <!-- display state -->
+	</Hint>
+	<Hint type="0x0D00"> <!-- display state 2 -->
+	</Hint>
+	<Hint type="0x0E00"> <!-- cam preview -->
+	</Hint>
+	<Hint type="0x0F00"> <!-- sustained performance -->
+	</Hint>
+	<Hint type="0x1000"> <!-- vr mode -->
+	</Hint>
+	<Hint type="0x1001"> <!-- vr mode sustained performance -->
+	</Hint>
+</Powerhint>

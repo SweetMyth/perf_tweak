@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BoostConfigs>
 	<PerfBoost>
+		<!-- Display Off -->
+		<Config
+			Id="0x00001040" Enable="true" Timeout="0" Target="msm8996"
+			Resources="" />
+		<!-- Display on -->
+		<Config
+			Id="0x00001041" Enable="true" Timeout="0" Target="msm8996"
+			Resources="" />
+		<!-- Launch boost -->
 		<Config
 			Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="msm8996"
 			Resources="" />
 		<Config
-			Id="0x00001081" Type="2" Enable="false" Timeout="1500" Target="msm8996"
+			Id="0x00001081" Type="2" Enable="true" Timeout="1500" Target="msm8996"
 			Resources="" />
 		<Config
-			Id="0x00001081" Type="3" Enable="false" Timeout="15000" Target="msm8996"
+			Id="0x00001081" Type="3" Enable="true" Timeout="15000" Target="msm8996"
+			Resources="" />
+		<!-- Scroll boost -->
+		<Config
+			Id="0x00001080" Type="1" Enable="true" Target="msm8996"
 			Resources="" />
 		<Config
-			Id="0x00001080" Type="1" Enable="false" Target="msm8996"
+			Id="0x00001080" Type="2" Enable="true" Target="msm8996"
 			Resources="" />
 		<Config
-			Id="0x00001080" Type="2" Enable="false" Target="msm8996"
+			Id="0x00001080" Type="3" Enable="true" Target="msm8996"
+			Resources="" />
+		<Config
+			Id="0x00001080" Type="4" Enable="true" Target="msm8996"
 			Resources="" />
 	</PerfBoost>
 </BoostConfigs>
