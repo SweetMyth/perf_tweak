@@ -10,5 +10,16 @@
 			MinCoreOnline="0" />
 		<ClustersInfo Id="0" NumCores="2" Type="little" />
 		<ClustersInfo Id="1" NumCores="2" Type="big" />
-    </Config1>
+	</Config1>
+	<Config2>
+		<TargetInfo
+			Target="msm8996"
+			NumClusters="2"
+			TotalNumCores="4"
+			SocIds="305,312"
+			SynCore="1"
+			MinCoreOnline="0" />
+		<ClustersInfo Id="0" NumCores="2" Type="little" MaxFrequency="1593600" />
+		<ClustersInfo Id="1" NumCores="2" Type="big" />
+	</Config2>
 </TargetConfig>
