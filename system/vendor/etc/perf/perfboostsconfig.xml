@@ -1,69 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BoostConfigs>
 	<PerfBoost>
-		<!-- Display Off -->
-		<Config
-			Id="0x00001040" Enable="true" Timeout="0" Target="msm8996"
-			Resources="" />
-		<!-- Display on -->
-		<Config
-			Id="0x00001041" Enable="true" Timeout="0" Target="msm8996"
-			Resources="" />
 		<!-- Launch boost -->
 		<Config
 			Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="msm8996"
 			Resources="" />
-		<Config
-			Id="0x00001081" Type="2" Enable="true" Timeout="1500" Target="msm8996"
-			Resources="" />
-		<Config
-			Id="0x00001081" Type="3" Enable="true" Timeout="15000" Target="msm8996"
-			Resources="" />
-		<Config
-			Id="0x00001081" Type="4" Enable="true" Timeout="15000" Target="msm8996"
-			Resources="" />
-		<Config
-			Id="0x00001081" Type="5" Enable="true" Timeout="2000" Target="msm8996"
-			Resources="" />
-		<Config
-			Id="0x00001081" Type="6" Enable="true" Timeout="2000" Target="msm8996"
-			Resources="" />
 		<!-- Scroll boost -->
 		<Config
-			Id="0x00001080" Type="1" Enable="true" Target="msm8996"
-			Resources="" />
-		<Config
-			Id="0x00001080" Type="2" Enable="true" Target="msm8996"
-			Resources="" />
-		<Config
-			Id="0x00001080" Type="3" Enable="true" Target="msm8996"
-			Resources="" />
-		<Config
-			Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="msm8996"
-			Resources="" />
-		<!-- Animation boost -->
-		<Config
-			Id="0x00001083" Enable="true" Timeout="400" Target="msm8996"
-			Resources="" />
-		<!-- MTP boost -->
-		<Config
-			Id="0x00001086" Enable="true" Target="msm8996"
-			Resources="" />
-		<!-- Drag boost -->
-		<Config
-			Id="0x00001087" Enable="true" Timeout="0" Target="msm8996"
-			Resources="" />
-		<!-- PackageInstall boost -->
-		<Config
-			Id="0x00001088" Enable="true" Target="msm8996"
-			Resources="" />
-		<!-- Rotation latency boost -->
-		<Config
-			Id="0x00001089" Enable="true" Timeout="1500" Target="msm8996"
-			Resources="" />
-		<!-- Rotation animation boost -->
-		<Config
-			Id="0x00001090" Enable="true" Timeout="1000" Target="msm8996"
-			Resources="" />
+			Id="0x00001080" Type="1" Enable="true" Timeout="15000" Target="msm8996"
+			Resources="0x40C28000, 0x0" />
 	</PerfBoost>
 </BoostConfigs>
